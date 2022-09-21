@@ -1,0 +1,777 @@
+/* for all */
+*{
+    margin: 0   px;
+    padding: 0px;
+    font-family: 'Aref Ruqaa', serif;
+}
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px 2px;
+    background-color: rgb(247, 247, 247);
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+/* menubar */
+
+.menu{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.menu a{
+    cursor: pointer;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius:30px 30px;
+    /* background-color: #c4bebe; */
+}
+.menu h2{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu h2 a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: darkblue;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    /* opacity: 0.8; */
+
+}
+.menu ul li a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    font-weight: lighter;
+    /* font-family: 'Stint Ultra Expanded', cursive; */
+}
+.menu ul li a:hover{
+    color: red;
+}
+/* .menu ul li img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: inline-block;
+} */
+
+
+/* first banner */
+.firstItem {
+    border: 1px solid white;
+    /* display: flex; */
+    background-image: url(/image/banner3.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    /* background-position:left ; */
+    color: white;
+    width: 100%;
+    height: 550px;
+    /* margin-top:0px; */
+}
+.firstItem .first{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-left: 90px;
+    font-family: 'Stick No Bills', sans-serif ;
+
+}
+
+.first img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.first h1{
+    font-size:70px;
+    color:lightcyan;
+}
+
+.first p{
+    font-size:25px;
+    margin-top:10px;
+}
+
+ #p1,#p2{
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    color:#000000;
+    float: right;
+    margin-top:90px;    
+    padding-left: 80px;
+    padding-top: 30px;
+    border-radius:80px;
+    font-size: 35px;
+    font-family: 'Zilla Slab', serif;
+}
+
+#p1{
+    background-color: blueviolet;
+    color:white;
+}
+#p2{
+    background-color: rgb(129, 129, 129);
+    color:rgb(255, 255, 255);
+}
+
+#p1:hover{
+    background-color:yellow;
+    color:black;
+}
+#p2:hover{
+    background-color:rgb(0, 247, 255);
+    color:black;
+}
+
+
+/* second banner */
+
+.secondItem {
+    margin-top:200px;
+    border: 1px solid white;
+    background-image: url(/image/banner5.jpg) ;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.second{
+    
+    /* border: 2px solid red; */
+    /* float: right; */
+    width: 600px;
+    height: 600px;
+    float: right;
+    margin-top:200px;
+    margin-left: 100px;
+    color: black;
+    background-color: rgb(175, 249, 252);
+    padding: 50px;
+    text-align: justify;
+    font-size: 25px;
+    opacity: .9;
+
+}
+
+.second h1{
+    font-size:35px;
+    font-weight:bold;
+}
+
+.second p{
+    font-weight: bolder;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.second a{
+    text-decoration:none;
+}
+#p3{
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    width: 200px;
+    height: 50px;
+    padding-left: 30px;
+    float: right;
+}
+#p3:hover{
+    background-color: bisque;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* third banner */
+.thirdItem {
+    display: inline-block;
+    margin-top:150px;
+    border: 1px solid white;
+    background-image: url(/image/banner6.jpg) ;
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.third{
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 400px;
+    margin-top:320px;
+    margin-left: 100px;
+    color:white;
+    background-color: crimson;
+    opacity:.9;
+    padding:40px;
+}
+.third a{
+    text-decoration:none;
+}
+.third h1{
+    font-size:35px;
+    font-weight:bold;
+}
+
+.third p{
+    font-weight: bolder;
+    text-align:justify;
+    font-size: 20px;
+}
+
+#p4{
+    display: inline-block;
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    padding-left: 30px;
+    float: right;
+}
+#p4:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* forth banner */
+
+.forthItem{
+    
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 250px;
+    background-color: rgb(247, 247, 247);
+}
+
+.forthItem h1{
+    text-align: center; 
+    margin-top: 50px;
+    font-size:50px;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+.fourth{
+    /* border: 2px solid red; */
+    width:260px;
+    height:400px;
+    margin-left: 180px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* border-radius:5px; */
+}
+
+.fourth img{
+    width: 260px;
+    height: 200px ;
+}
+.fourth h2{
+   text-align: center;
+   
+}
+
+.fourth p{
+    text-align: center;
+}
+
+.fourth a{
+    text-decoration: none;  
+    color: #000000;
+}
+
+/* .forth #p5{
+    margin-top: -10px;
+} */
+.fourth #p5,#p6,#p7{
+    display: inline-block;
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+    
+}
+.fourth #p5:hover,#p6:hover,#p7:hover
+{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* fifth banner */
+
+.fifthItem {
+    
+    margin-top:150px;
+    border: 1px solid white;
+    background-image: url(/image/banner1.jpg) ;
+    color: white;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.fifth{
+   /* border: 2px solid red; */
+   width: 500px;
+   height: 350px;
+   margin-top:220px;
+   margin-left: 100px;
+   color:white;
+   background-color: rgb(255, 131, 156);
+   opacity:.9;
+   padding:40px; 
+}
+
+.fifth h1{
+    font-size:35px;
+    font-weight:bold;
+    color: #000000;
+}
+
+.fifth p{
+    font-weight: bolder;
+    text-align:justify;
+    font-size: 20px;
+}
+.fifth a{
+    text-decoration:none;
+}
+
+#p8{
+    /* display: inline-block; */
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    padding-left: 30px;
+    float: left;
+}
+#p8:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+/* sixth banner */
+.sixthItem{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 150px;
+    background-color: rgb(247, 247, 247);
+    display:flex; 
+}
+.sixthItem a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.sixth1{
+    /* border: 2px solid red; */
+    width:40%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(209, 253, 239);
+    text-align: center;    
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    
+    
+}
+
+.sixth1 h1{
+    font-size:45px;
+    margin-top: 180px;
+}
+.sixth1 p{
+    font-size:20px;
+}
+.sixth2{
+    /* border: 2px solid red; */
+    width:60%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 229, 229);
+    padding-left:200px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.sixth2 form{
+    padding-top:80px;  
+}
+
+.sixth2 form input{
+    background-color: rgb(122, 32, 32);
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sixth2 p{
+    margin-left: 180px;
+}
+#p9{
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    /* float: left;  */
+}
+
+#p9:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* seventh footer */
+
+.seventhItem{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: yellow;
+    text-align: center;
+    opacity: .8;
+}
+
+/* media query started here */
+
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+
+    /* menubar */
+    .menu{
+        /* border: 2px solid red; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .menu img{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menu h2{
+        margin-left: 20px;
+        /* margin: auto; */
+        font-size: 30px;
+        /* background-color: #c0bebe; */
+        
+        
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+        font-weight: bold;
+    }
+    .menu ul li a{
+       font-weight: bold;
+    }
+
+
+    /* first banner */
+    .firstItem{
+        background-size: cover;
+        width: 360px;
+        height: 350px;
+        opacity: .7;
+        margin-top:10px; 
+    }
+    .firstItem .first{
+        margin-top:50px;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    .first img{
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+    .first h1{
+        font-size:35px;
+        color:lightcyan;
+    }
+    
+    .first p{
+        font-size:20px;
+        margin-top:10px;
+        font-weight: bold;
+    }
+    #p1,#p2{
+        display:block;
+        margin-top:160px; 
+        width: 150px ;
+        height: 45px; 
+        float:left;  
+        font-size: 15px;
+        padding-left: 10px;
+        text-align: center; 
+        border-radius:80px 20px;
+    }
+
+    /* second banner */
+    .secondItem{
+        background-size: cover;
+        margin-top:100px;
+        height: 300px;
+        
+    } 
+    .second{
+        border-radius:20px 5px;
+        float: left;
+        width: 360px;
+        height: 300px;
+        margin-top:350px;
+        margin-left: 00px;
+        padding: 10px;
+    }
+    .second h1{
+        font-size: 25px;
+    }
+    .second p{
+        margin-top:5px;
+        font-size:15px;
+    }
+    #p3{
+        width: 100px;
+        height: 30px;
+        padding-left: 20px;
+        border-radius: 100px 1px;
+    }
+
+    /* third banner */
+    .thirdItem{
+        margin-top:50px;
+        background-size: cover;
+        width: 360px;
+        height: 300px;
+    }
+
+    .third{
+        width: 360px;
+        height: 300px;
+        margin-top:350px;
+        margin-left: 00px;
+        border-radius:20px 50px;
+        padding:10px;
+    }
+    .third h1{
+        margin-top:10px;
+        font-size: 25px;
+        color:#ffffff
+    }
+    .third p{
+        margin-top:10px;
+        font-size: 15px;
+    }
+    #p4{
+        width: 100px;
+        margin-top: 10px;
+        float: left;
+        padding-top: 10px;
+        border-radius:20px 50px;
+    }
+
+    /* forth banner */
+    .forthItem{
+        margin-top:140px;
+        width: 360px;
+        height: auto;
+    }
+
+    .forthItem h1{
+        font-size:30px;
+    }
+
+    .fourth{
+        width: 200px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 2px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px 20px;
+    }
+    .fourth img{
+        width: 200px;
+        height: 100px;
+
+    }
+    .fourth p{
+        margin-top:10px;
+    }
+    .fourth #p5,#p6,#p7{
+        display: block;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border-radius: 100px 10px;
+    }
+
+    /* fifth banner */
+    .fifthItem{
+        margin-top: 80px;
+        width: 360px;
+        height: 300px;
+        background-size: cover;
+        background-position: right center;
+    }
+    .fifth{
+        width: 350px;
+        height: 250px;
+        margin-top:320px;
+        margin-left:0px;
+        padding: 10px;
+        border-radius:50px 10px;
+    }
+
+    .fifth h1{
+        font-size:25px;
+        margin-top: 20px;
+    }
+    .fifth p{
+        font-size:15px;
+        margin-top: 20px;
+    }
+    .fifth button{
+        width: 100px;
+        height:40px;
+        font-size:25px;
+    }
+
+    /* sixth banner */
+    .sixthItem{
+        width: 360px;
+        height: auto;
+        display: block;
+        margin-top: 350px;
+    }
+
+    .sixth1{
+        width: 100%;
+        height: 300px;
+        padding-left: 4px;
+        /* margin-top:50px; */
+        text-align: justify;
+        border-radius: 90px 20px;
+    }
+
+    .sixth1 h1{
+        font-size: 30px;
+        margin-top:50px;
+        text-align:center;
+    }
+    .sixth1 p{
+        font-size:20px;
+        text-align: justify;
+        margin: 8px;
+    }
+
+    .sixth2{
+        width: 100%;
+        height:400px;
+        padding-left: 10px;
+        /* border-top: 1px solid */
+        border-radius: 100px 50px;
+    }
+
+    .sixth2 form{
+        padding-top:10px;
+        margin-left: 35px;
+    }
+    .sixth2 form input{
+        width: 230px;
+        height: 40px;
+        border-radius: 0px 50px;
+    }
+    .sixth2 form button{
+        width: 100px;
+        height:40px;
+        font-size:25px;
+        /* float:left; */
+        align-items: center;
+        justify-content: center;
+        /* margin-right:0px; */
+        /* border-radius: 10px 5px ; */
+
+    }
+
+    /* seventh footer */
+        .seventhItem{
+            width: 100%;
+            height:70px;
+            text-align: justify;
+            margin-top:20px;
+            padding-left: 3px;
+            border-radius: 20px 10px;
+        }
+}

@@ -1,0 +1,425 @@
+/* for all */
+*{
+    margin: opx;
+    padding:0px;
+    font-family: 'Aref Ruqaa', serif;
+    text-align: justify;
+}
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px 2px;
+    background-color: rgb(247, 247, 247);
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+/* menubar */
+
+.menu{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.menu a{
+    cursor: pointer;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius:30px 30px;
+    /* background-color: #c4bebe; */
+}
+.menu h2{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu h2 a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: darkblue;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    /* opacity: 0.8; */
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    font-weight: lighter;
+    /* font-family: 'Stint Ultra Expanded', cursive; */
+}
+
+
+/* about fox fit */
+.first{
+    /* border: 2px solid red; */
+    background-color: rgb(228, 228, 228);
+    color: #000000;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+.first h1{
+    font-size:100px;
+    margin-left: 450px;
+}
+
+/* descripation of first box */
+
+.second{
+    /* border: 2px solid red; */
+    width:700px;
+    height:600px;
+    background-color: rgb(255, 243, 68);
+    margin-left: 325px;
+    margin-top: 100px;
+    padding:50px;
+    color: #000000;
+}
+.second h2{
+    font-size: 45px;
+
+}
+.second p{
+    gap: 3;
+    font-size:22px;
+}
+
+/* third part of foxFit */
+.third{
+    /* border: 2px solid red; */
+    width:500px;
+    height:600px;
+    position:relative;
+    background-color: rgb(109, 109, 109);
+    float: right;
+    margin-top:-125px;
+    margin-right: 125px;
+    padding:80px;
+    color: #000000;
+}
+.third h2{
+    font-size: 45px;
+
+}
+.thirdItem{
+    display: flex; 
+    flex-direction: row;
+    padding: 3px;
+    flex-grow: 3;
+    filter: invert(100%);
+}
+.thirdItem img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.thirdItem p{
+    margin-left: 35px;
+    font-size: 22px;
+    font-weight:bolder;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* fourth part of foxfit */
+.fourth{
+    /* border: 2px solid red; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height:600px;
+    color: #000000;
+    background: url(/image/banner5.jpg);
+    margin-top: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    position:relative;
+}
+
+/* copy from index */
+.sixthItem{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    background-color: rgb(247, 247, 247);
+    display:flex; 
+}
+.sixthItem a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.sixth1{
+    /* border: 2px solid red; */
+    width:40%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(209, 253, 239);
+    text-align: center;    
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    
+    
+}
+
+.sixth1 h1{
+    font-size:45px;
+    margin-top: 180px;
+}
+.sixth1 p{
+    font-size:20px;
+}
+.sixth2{
+    /* border: 2px solid red; */
+    width:60%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 229, 229);
+    padding-left:200px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.sixth2 form{
+    padding-top:80px;  
+}
+
+.sixth2 form input{
+    background-color: rgb(122, 32, 32);
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sixth2 p{
+    margin-left: 180px;
+}
+#p9{
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    /* float: left;  */
+}
+
+#p9:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* seventh footer */
+
+.seventhItem{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: yellow;
+    text-align: center;
+   
+    opacity: .8;
+}
+
+
+/* media query started here */
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+
+    /* menubar */
+    .menu{
+        /* border: 2px solid red; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .menu img{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menu h2{
+        margin-left: 20px;
+        /* margin: auto; */
+        font-size: 30px;
+        /* background-color: #c0bebe; */
+        
+        
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+        font-weight: bold;
+    }
+    .menu ul li a{
+       font-weight: bold;
+    }
+
+    /* about fox fit */
+    .first h1{
+        margin-top:50px;
+        font-size:45px;
+        margin-left: 20px;
+    }
+    /* descripation of first box */
+    .second{
+        width: 350px;
+        height:400px;
+        margin-left: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        border-radius: 30px 8px;
+    }
+
+    .second h2{
+        font-size:30px;
+        text-align: justify;
+    }
+    .second p{
+        gap:1;
+        margin-top:40px;
+        font-size:16px;
+    }
+    /* third part of foxfit */
+    .third{
+        width: 350px;
+        margin-top:30px;
+        float: left;
+        padding: 20px;
+        border-radius:80px 10px;
+    }
+
+    .third h2{
+        font-size:50px;
+        margin-bottom: 50px;
+    }
+    .thirdItem p{
+      font-size:25px;
+      margin-left: 35px;
+    }
+    /* forth part of foxfit */
+    .fourth{
+        background-size: cover;
+        height: 400px;
+        margin-top:700px;
+        opacity: .8;
+    }
+
+    /* sixth banner */
+    .sixthItem{
+        width: 360px;
+        height: auto;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .sixth1{
+        width: 100%;
+        height: 300px;
+        padding-left: 4px;
+        /* margin-top:50px; */
+        text-align: justify;
+        border-radius: 90px 20px;
+    }
+
+    .sixth1 h1{
+        font-size: 30px;
+        margin-top:50px;
+        text-align:center;
+    }
+    .sixth1 p{
+        font-size:20px;
+        text-align: justify;
+        margin: 8px;
+    }
+
+    .sixth2{
+        width: 100%;
+        height:400px;
+        padding-left: 10px;
+        /* border-top: 1px solid */
+        border-radius: 100px 50px;
+    }
+
+    .sixth2 form{
+        padding-top:10px;
+        margin-left: 35px;
+    }
+    .sixth2 form input{
+        width: 230px;
+        height: 40px;
+        border-radius: 0px 50px;
+    }
+    .sixth2 form button{
+        width: 100px;
+        height:40px;
+        font-size:25px;
+        /* float:left; */
+        align-items: center;
+        justify-content: center;
+        /* margin-right:0px; */
+        /* border-radius: 10px 5px ; */
+
+    }
+
+    /* seventh footer */
+        .seventhItem{
+            width: 100%;
+            height:70px;
+            text-align: justify;
+            margin-top:20px;
+            padding-left: 3px;
+            border-radius: 20px 10px;
+        }
+}

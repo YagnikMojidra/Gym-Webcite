@@ -1,0 +1,396 @@
+/* for all */
+*{
+    margin: opx;
+    padding:0px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px 2px;
+    background-color: rgb(247, 247, 247);
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+/* menubar */
+
+.menu{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.menu a{
+    cursor: pointer;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius:30px 30px;
+    /* background-color: #c4bebe; */
+}
+.menu h2{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu h2 a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: darkblue;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    /* opacity: 0.8; */
+
+}
+.menu ul li a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    font-weight: lighter;
+    /* font-family: 'Stint Ultra Expanded', cursive; */
+}
+
+/* about price and planing */
+.first{
+    /* border: 2px solid red; */
+    background-color: rgb(228, 228, 228);
+    color: #000000;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+.first h1{
+    font-size:70px;
+    /* margin-left: 350px; */
+    text-align: center;
+}
+
+/* second class */
+.second{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 60px;
+    /* text-align: justify; */
+    font-weight: lighter;
+    font-size:25px;
+    color: rgb(226, 3, 3);
+}
+
+/* third class started here */
+
+.third{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 40px;
+    height: 600px;
+    background-color: rgb(255, 240, 211);
+    padding: 10px;
+}
+
+.thirdItem{
+    border: 10px solid #ffffff;
+    border-radius:10px 35px;
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px;
+    padding-left: 30px;
+    background-color: rgb(59, 96, 128);
+}
+
+.thirdItem h2{
+    font-size:  25px;
+    text-align: center;
+    background-color:#ffffff;
+    color: rgb(2, 40, 112);
+}
+.thirdItem p{
+    font-size:  25px;
+    text-align: center;
+    color:rgb(219, 219, 219) ;
+}
+.thirdItem a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+#p1{
+    background-color: rgb(139, 139, 139);
+    color:#000000;  
+}
+#p1:hover{
+    background-color:yellow;
+    color:rgb(131, 0, 0);
+}
+
+/* footer copy from index */
+.sixthItem{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    background-color: rgb(247, 247, 247);
+    display:flex; 
+}
+.sixthItem a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.sixth1{
+    /* border: 2px solid red; */
+    width:40%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(209, 253, 239);
+    text-align: center;    
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    
+    
+}
+
+.sixth1 h1{
+    font-size:45px;
+    margin-top: 180px;
+}
+.sixth1 p{
+    font-size:20px;
+}
+.sixth2{
+    /* border: 2px solid red; */
+    width:60%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 229, 229);
+    padding-left:200px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.sixth2 form{
+    padding-top:80px;  
+}
+
+.sixth2 form input{
+    background-color: rgb(122, 32, 32);
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sixth2 p{
+    margin-left: 180px;
+}
+#p9{
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    /* float: left;  */
+}
+
+#p9:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* seventh footer */
+
+.seventhItem{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: yellow;
+    text-align: center;
+    opacity: .8;
+}
+
+
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+
+    /* menubar */
+    .menu{
+        /* border: 2px solid red; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .menu img{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menu h2{
+        margin-left: 20px;
+        /* margin: auto; */
+        font-size: 30px;
+        /* background-color: #c0bebe; */
+        
+        
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+        font-weight: bold;
+    }
+    .menu ul li a{
+       font-weight: bold;
+    }
+
+    /* about price and planning */
+    .first h1{
+        font-size:40px;
+        margin-top:20px;
+    }
+
+    /* second class */
+    .second{
+        text-align: justify;
+        font-size: 20px;
+        height: 100px;
+        background-color: whitesmoke; 
+        padding-top: 10px;
+        border-radius: 20px 2px;
+    }
+    .second p{
+        margin: 5px;
+        margin-top: 10px;
+    }
+
+    /* third class started here */
+    .third{
+        height: auto;
+        border-radius: 55px 40px;
+    }
+
+    .thirdItem{
+        width: 300px;
+        height: 370px;
+        display: block;
+        margin-left: 20px;
+        padding-left:10px;
+    }
+    .thirdItem p{
+        margin: 22px;
+    }
+
+    /* sixth banner */
+    .sixthItem{
+        width: 360px;
+        height: auto;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .sixth1{
+        width: 100%;
+        height: 300px;
+        padding-left: 4px;
+        /* margin-top:50px; */
+        text-align: justify;
+        border-radius: 90px 20px;
+    }
+
+    .sixth1 h1{
+        font-size: 30px;
+        margin-top:50px;
+        text-align:center;
+    }
+    .sixth1 p{
+        font-size:20px;
+        text-align: justify;
+        margin: 8px;
+    }
+
+    .sixth2{
+        width: 100%;
+        height:400px;
+        padding-left: 10px;
+        /* border-top: 1px solid */
+        border-radius: 100px 50px;
+    }
+
+    .sixth2 form{
+        padding-top:10px;
+        margin-left: 35px;
+    }
+    .sixth2 form input{
+        width: 230px;
+        height: 40px;
+        border-radius: 0px 50px;
+    }
+    .sixth2 form button{
+        width: 100px;
+        height:40px;
+        font-size:25px;
+        /* float:left; */
+        align-items: center;
+        justify-content: center;
+        /* margin-right:0px; */
+        /* border-radius: 10px 5px ; */
+
+    }
+
+    /* seventh footer */
+        .seventhItem{
+            width: 100%;
+            height:70px;
+            text-align: justify;
+            margin-top:20px;
+            padding-left: 3px;
+            border-radius: 20px 10px;
+        }
+}

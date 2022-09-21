@@ -1,0 +1,177 @@
+/* for all */
+*{
+    margin: opx;
+    padding:0px;
+    font-family: 'Aref Ruqaa', serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* menubar */
+
+.menu{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.menu a{
+    cursor: pointer;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius:30px 30px;
+    /* background-color: #c4bebe; */
+}
+.menu h2{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu h2 a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: darkblue;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    /* opacity: 0.8; */
+
+}
+.menu ul li a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    font-weight: lighter;
+    /* font-family: 'Stint Ultra Expanded', cursive; */
+}
+
+/* first class strated here */
+.first{
+    margin: auto;
+    border: 10px solid rgb(173, 173, 173);
+    width: 700px;
+    height: 350px;
+    margin-top:100px;
+    text-align: center;
+    background-color:rgb(27, 27, 27);
+    color:#ffff;
+    border-radius:1000px 20px;
+}
+.first input{
+    margin: 5px;
+    margin-top:5px;
+    text-align: center;
+    border: 5px solid #ffff;
+    border-radius: 20px 2px;
+    background-color: rgb(255, 42, 166);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.first label{
+font-weight: bolder;
+font-size:30px;
+color:rgb(255, 238, 0)
+}
+input[type="button"]{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 20px 2px;
+    background-color: rgb(255, 42, 95);
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+
+    /* menubar */
+    .menu{
+        /* border: 2px solid red; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .menu img{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menu h2{
+        margin-left: 20px;
+        /* margin: auto; */
+        font-size: 30px;
+        /* background-color: #c0bebe; */
+        
+        
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+        font-weight: bold;
+    }
+    .menu ul li a{
+       font-weight: bold;
+    }
+
+    /* first class started here */
+    .first{
+        width: 355px;
+        height: 300px;
+        border-radius: 30px 8px;
+        text-align: center;
+        
+    }
+    .first input,label,h1,button{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+}

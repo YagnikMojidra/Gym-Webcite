@@ -1,0 +1,439 @@
+/* for all */
+*{
+    margin: opx;
+    padding:0px;
+    font-family: 'Aref Ruqaa', serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px 2px;
+    background-color: rgb(247, 247, 247);
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+
+/* menubar */
+
+.menu{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.menu a{
+    cursor: pointer;
+}
+.menu img{
+    width: 150px;
+    height: 100px;
+    /* border: 2px solid black; */
+    border-radius:30px 30px;
+    /* background-color: #c4bebe; */
+}
+.menu h2{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu h2 a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: darkblue;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    /* opacity: 0.8; */
+
+}
+.menu ul li a{
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    font-weight: lighter;
+    /* font-family: 'Stint Ultra Expanded', cursive; */
+}
+
+/* about john class */
+.first{
+    /* border: 2px solid red; */
+    background-color: rgb(228, 228, 228);
+    color: #000000;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+.first h1{
+    font-size:100px;
+    /* margin-left: 350px; */
+    text-align: center;
+}
+
+/* for second class */
+
+.second{
+    /* border: 2px solid red; */
+    border-radius: 100px 20px;
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    background-color: rgb(124, 192, 255);
+    text-align:justify;
+    padding: 40px;
+}
+.second h1{
+    font-size:50px;
+    color: rgb(0, 35, 80);
+}
+.second p{
+    color: white;
+}
+#p1{
+    background-color: rgb(255, 255, 255);
+    color:#000000; 
+    /* border: 2px solid black;  */
+    float: right;
+    font-weight: bold;
+    font-size:30px;
+    border-radius:10px;
+}
+#p1:hover{
+    background-color:yellow;
+    color:rgb(131, 0, 0);
+}
+
+/* third class */
+
+.third{
+    /* border: 2px solid black;  */
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 20px;
+    background-image: url(/image/banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    opacity: .8;
+    border-radius: 800px 300px;
+}
+
+/* fourth class */
+.fourth{
+    /* border: 2px solid red; */
+    border-radius: 200px 20px;
+    width: 700px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 200px;
+    overflow: hidden;
+    background-color: rgb(255, 230, 0);
+    text-align:justify;
+    padding: 50px;
+}
+
+/* fifth class */
+
+.fifth{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: rgb(170, 170, 170);
+    /* border-radius:1000px 20px; */
+    
+}
+.fifth video{
+    width: 100%; 
+    height: 400px;
+}
+
+/* footer copy from index */
+.sixthItem{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    background-color: rgb(247, 247, 247);
+    display:flex; 
+}
+.sixthItem a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.sixth1{
+    /* border: 2px solid red; */
+    width:40%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(209, 253, 239);
+    text-align: center;    
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    
+    
+}
+
+.sixth1 h1{
+    font-size:45px;
+    margin-top: 180px;
+}
+.sixth1 p{
+    font-size:20px;
+}
+.sixth2{
+    /* border: 2px solid red; */
+    width:60%;
+    height:590px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 229, 229);
+    padding-left:200px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.sixth2 form{
+    padding-top:80px;  
+}
+
+.sixth2 form input{
+    background-color: rgb(122, 32, 32);
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sixth2 p{
+    margin-left: 180px;
+}
+#p9{
+    color: lightgreen;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    /* float: left;  */
+}
+
+#p9:hover{
+    background-color: lime;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* seventh footer */
+
+.seventhItem{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: yellow;
+    text-align: center;
+    opacity: .8;
+}
+
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+
+    /* menubar */
+    .menu{
+        /* border: 2px solid red; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .menu img{
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .menu h2{
+        margin-left: 20px;
+        /* margin: auto; */
+        font-size: 30px;
+        /* background-color: #c0bebe; */
+        
+        
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        justify-content: center;
+        background-color:aliceblue;
+        font-weight: bold;
+    }
+    .menu ul li a{
+       font-weight: bold;
+    }
+
+    /* about john class */
+    .first h1{
+        font-size:45px;
+        margin-top: 50px;
+    }
+
+    /* for second class */
+    .second{
+        width: 100%;
+        height: 450px;
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .second h1{
+        font-size:35px;
+        text-align: justify;
+        margin-top:50px;
+    }
+    .second p{
+        font-size: 18px;
+    }
+    #p1{
+        float:left;
+        margin-top:13px;
+    }
+    
+
+    /* third class */
+    .third{
+        width:100%;
+        height:300px;
+        float:left;
+        margin-top: 50px;
+    }
+
+    /* fourth class */
+    .fourth{
+        width:100%;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 400px;
+        padding: 20px;
+        border-radius:100px 80px;
+    }
+    .fourth h1,p{
+        margin-top:30px;
+    }
+
+    /* fifth class */
+    .fifth{
+        height: 300px;
+        margin-left: 30px;
+        border-radius: 10px 20px;
+    }
+
+    .fifth video{
+        height: 290px;
+    }
+    /* sixth banner */
+    .sixthItem{
+        width: 360px;
+        height: auto;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .sixth1{
+        width: 100%;
+        height: 300px;
+        padding-left: 4px;
+        /* margin-top:50px; */
+        text-align: justify;
+        border-radius: 90px 20px;
+    }
+
+    .sixth1 h1{
+        font-size: 30px;
+        margin-top:50px;
+        text-align:center;
+    }
+    .sixth1 p{
+        font-size:20px;
+        text-align: justify;
+        margin: 8px;
+    }
+
+    .sixth2{
+        width: 100%;
+        height:400px;
+        padding-left: 10px;
+        /* border-top: 1px solid */
+        border-radius: 100px 50px;
+    }
+
+    .sixth2 form{
+        padding-top:10px;
+        margin-left: 35px;
+    }
+    .sixth2 form input{
+        width: 230px;
+        height: 40px;
+        border-radius: 0px 50px;
+    }
+    .sixth2 form button{
+        width: 100px;
+        height:40px;
+        font-size:25px;
+        /* float:left; */
+        align-items: center;
+        justify-content: center;
+        /* margin-right:0px; */
+        /* border-radius: 10px 5px ; */
+
+    }
+
+    /* seventh footer */
+        .seventhItem{
+            width: 100%;
+            height:70px;
+            text-align: justify;
+            margin-top:20px;
+            padding-left: 3px;
+            border-radius: 20px 10px;
+        }
+}

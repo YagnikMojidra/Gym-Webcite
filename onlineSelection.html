@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Online</title>
+    <link rel="stylesheet" href="/css/onlineSelection.css">
+    <link rel="shortcut icon" href="/image/plogo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="menu">
+        <a href="/index.html"><img src="/image/fitness.png" alt="fitness image"></a>
+        <h2><a href="/index.html"> John Fitness Studio </a></h2>
+        <ul>
+            <li><a href="/index.html"> Home </a></li>
+            <li><a href="/foxfit.html"> FoxFit </a></li>
+            <li><a href="/plan.html"> Plans & Pricing </a></li>
+            <li><a href="/bookOnline.html"> Book Online </a></li>
+            <li><a href="/john.html" id="meet"> Meet John </a></li>
+            <li><a href="/bookOnline.html"> Contact </a></li>
+            <li><a href="/login.html"> Log In </a></li>
+        </ul>
+    </nav>
+    <section class="first">
+        <h1><i> Schedule Online Now!</i></h1>
+        <form action="/database/time.php" method="post">
+            <label for="Date">Date:::</label>
+            <input type="date" name="date" id=""><br>
+            <label for="time">Time:::</label>
+            <input type="time" name="time" id=""><br>
+            <!-- <input type="button" value="Submit"> -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* for all */
+*{
+    margin: opx;
+    padding:0px;
+    font-family: 'Aref Ruqaa', serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* first class */
+
+.first{
+    border: 10px solid rgb(104, 63, 63);
+    border-radius:650px 550px;
+    margin: auto;
+    width: 600px;
+    height:400px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #e7e7e7;
+    
+
+}
+.first form input{
+    margin: 5px;
+    margin-top:5px;
+    text-align: center;
+    border: 5px solid #5c4242;
+    border-radius: 20px 2px;
+    background-color: rgb(226, 101, 226);
+    color: #000000;
+    font-size: 22px;
+    font-weight: bolder;
+}
+input[type="button"]{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px 2px;
+    background-color: rgb(255, 42, 95);
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.first a{
+    font-weight: bold;
+    font-size: 23px;
+}
+.first a:hover{
+    color: #000000;
+}
+@media screen and (max-device-width: 360px) {
+    *{
+        font-family: 'Domine', serif;
+        text-align: justify;
+        margin: 0px;
+        padding: 0px; 
+        
+    }
+    /* first class */
+    .first{
+        width: 100%;
+        /* margin-top:40px; */
+        border-radius: 100px 90px;
+        padding: 2px;
+    }
+
+    .first  h1,input,button{
+        margin-left: 50px;
+        margin-top:30px;
+    }
+    .first p{
+        text-align: center;
+    }
+}
